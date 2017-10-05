@@ -1,4 +1,4 @@
-Codeigniter-HMVC-example
+Codeigniter-HMVC
 ========================
 
 ##Why should I use HMVC?
