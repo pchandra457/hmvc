@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta charset="utf-8" />
-        <title>Blank Page - Ace Admin</title>
+        <title>Dashboard - Web Admin</title>
 
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
@@ -60,7 +60,7 @@
                     <a href="index.html" class="navbar-brand">
                         <small>
                             <i class="fa fa-leaf"></i>
-                            Ace Admin
+                            Web Admin
                         </small>
                     </a>
                 </div>
@@ -314,7 +314,7 @@
                                 </li>
 
                                 <li class="dropdown-footer">
-                                    <a href="inbox.html">
+                                    <a href="#">
                                         See all messages
                                         <i class="ace-icon fa fa-arrow-right"></i>
                                     </a>
@@ -327,7 +327,7 @@
                                 <img class="nav-user-photo" src="<?php echo base_url(); ?>theme/assets/images/avatars/user.jpg" alt="Jason's Photo" />
                                 <span class="user-info">
                                     <small>Welcome,</small>
-                                    <?php echo $currentuser->user_nicename; ?>
+                                    <?php echo ucfirst($currentuser->user_nicename); ?>
                                 </span>
 
                                 <i class="ace-icon fa fa-caret-down"></i>
@@ -342,7 +342,7 @@
                                 </li>
 
                                 <li>
-                                    <a href="profile.html">
+                                    <a href="#">
                                         <i class="ace-icon fa fa-user"></i>
                                         Profile
                                     </a>
