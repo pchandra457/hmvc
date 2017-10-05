@@ -19,8 +19,3 @@ Modular Extensions makes the CodeIgniter PHP framework modular. Modules are grou
 HMVC stands for Hierarchical Model View Controller.
 
 Module Controllers can be used as normal Controllers or HMVC Controllers and they can be used as widgets to help you build view partials.
-
-##Using this demo-login
-
-User: admin@mail.com
-Pass: admin
